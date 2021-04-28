@@ -40,7 +40,7 @@ public class BecaTest {
     public void testCalculoBeca() throws Exception {
         System.out.println("calculoBeca");
         double rentaFamiliar =0; //caso para beca maxima o 5001 error por tenta mayor a 5000
-        int expResult = 1600;
+        int expResult = 1800;
         int result = Beca.calculoBeca(rentaFamiliar);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
